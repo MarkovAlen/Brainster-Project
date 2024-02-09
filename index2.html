@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>BrainsterLabs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="./Logo.png" />
+        <h5 class="logo-text">BRAINSTER</h5></a
+      >
+      <ul class="nav">
+        <li class="nav-items">
+          <a class="nav-link" href="#">Академија за маркетинг</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#">Академија за програмирање</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#">Академија за data science</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#">Академија за дизајн</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link cta" href="#">Вработи наш студент</a>
+        </li>
+      </ul>
+      <button class="menu-button"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <section class="form">
+      <div class="container">
+        <h1>Вработи студенти</h1>
+        <form class="form-container">
+          <div class="name-surname">
+            <label for="name">Име и Презиме</label>
+            <input id="name" type="text" placeholder="Вашето Име и Презиме" />
+          </div>
+
+          <div class="company-name">
+            <label for="company">Име на Компанија</label>
+            <input
+              id="company"
+              type="text"
+              placeholder="Име на вашата компанија"
+            />
+          </div>
+
+          <div class="contact-email">
+            <label for="email">Контакт имејл</label>
+            <input
+              id="email"
+              type="text"
+              placeholder="Контакт имејл на вашата компанија"
+            />
+          </div>
+
+          <div class="contact-telephone">
+            <label for="telephone">Контакт телефон</label>
+            <input
+              id="telephone"
+              type="tel"
+              placeholder="Контакт телефон на вашата компанија"
+            />
+          </div>
+
+          <div class="students">
+            <label for="students">Тип на студенти</label>
+            <select name="" id="">
+              <option value="">Изберете тип на студент</option>
+              <option value="">Студенти од маркетинг</option>
+              <option value="">Студенти од програмирање</option>
+              <option value="">Студенти од data science</option>
+              <option value="">Студенти од дизајн</option>
+            </select>
+          </div>
+
+          <button class="send">ИСПРАТИ</button>
+        </form>
+      </div>
+    </section>
+
+    <footer><p>Изработено со ❤️ од студентите на Brainster</p></footer>
+  </body>
+</html>
